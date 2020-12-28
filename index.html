@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        small{
+        small,input{
             display: block;
         }
+        input{
+            width: 50%;
+            margin: 1rem;
+        }
+
     </style>
 </head>
 <body>
     <h1>Leap Year</h1>
     <small>Check whether your birth year is leap year or not</small>
-    <input id="input-date" type="number"></input>
-    <button id="btn-check">Check</button>
-    <div id="input-wrong"></div>
+    <input id="inputDate" placeholder="enter only birth year in YYYY format"></input>
+    <button id="btnCheck">Check</button>
+    <div id="inputWrong"></div>
     <div id="output"></div>
+    <script src="app.js"></script>
 </body>
 </html>
